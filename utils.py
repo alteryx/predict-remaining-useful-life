@@ -1,15 +1,19 @@
 from random import randint
 import pandas as pd
 import requests, zipfile, StringIO
+import os
 
-
-def load_data(data_path):
-    print('Downloading Data...')
-    # Download the data
-    r = requests.get("https://ti.arc.nasa.gov/c/13/", stream=True)
-    z = zipfile.ZipFile(StringIO.StringIO(r.content))
-    z.extractall('data')
+def download_data():
+    if 'train_FD004.txt' not in os.listdir('data'):
+        print('Downloading Data...')
+        # Download the data
+        r = requests.get("https://ti.arc.nasa.gov/c/6/", stream=True)
+        z = zipfile.ZipFile(StringIO.StringIO(r.content))
+        z.extractall('data')
+    else:
+        print('Using previously downloaded data')
     
+def load_data(data_path):   
     operational_settings = ['operational_setting_{}'.format(i + 1) for i in range (3)]
     sensor_columns = ['sensor_measurement_{}'.format(i + 1) for i in range(26)]
     cols = ['engine_no', 'time_in_cycles'] + operational_settings + sensor_columns
