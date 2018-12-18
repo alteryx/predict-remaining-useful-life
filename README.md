@@ -31,10 +31,10 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
     pip install featuretools
     ```
 
-3. Run the Tutorial notebook:<br/>
+3. Run the Tutorial notebook:<br>
+   *Note: The Challenge Dataset will be downloaded into the data folder in this repository, if not already downloaded.*
     - [Simple Featuretools RUL Demo](Simple%20Featuretools%20RUL%20Demo.ipynb)<br/>
     - [Advanced Featuretools RUL](Advanced%20Featuretools%20RUL.ipynb)<br/>
-    *Note: The Challenge Dataset will be downloaded into the data folder in this repository, if not already downloaded.*
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
