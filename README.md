@@ -28,7 +28,7 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
 2. Install the requirements
 
     ```
-    pip install featuretools
+    pip install -r requirements.txt
     ```
 
 3. Run the Tutorial notebooks:<br>

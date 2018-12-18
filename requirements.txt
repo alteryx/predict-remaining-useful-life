@@ -1,0 +1,5 @@
+baytune>=0.2.2
+featuretools>=0.3.1
+scikit-learn>=0.19.0
+requests>=2.19.0
+tsfresh>=0.11.1
