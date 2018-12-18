@@ -4,7 +4,7 @@
     <img style="display:inline" width=15% src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA" />
 </p>
 
-The general setup for the problem is a common one: we have a single table of sensor observations over time. Now that collecting information is easier than ever, most industries have already generated *time-series* type problems by the way that they store data. As such, it is crucial to be able to handle data in this form. Thankfully, built-in functionality from [Featuretools](https://www.featuretools.com) handles time varying data well. 
+The general setup for the problem is a common one: we have a single table of sensor observations over time. Now that collecting information is easier than ever, most industries have already generated *time-series* type problems by the way that they store data. As such, it is crucial to be able to handle data in this form. Thankfully, built-in functionality from [Featuretools](https://www.featuretools.com) handles time varying data well.
 
 We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Simulation Data Set](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan) from NASA. This notebook demonstrates a rapid way to predict the Remaining Useful Life (RUL) of an engine using an initial dataframe of time-series data. There are three sections of the notebook:
 1. [Understand the Data](#Step-1:-Understanding-the-Data)
@@ -18,12 +18,22 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
 * Find interesting automatically generated features
 * An advanced notebook using custom primitives and hyperparameter tuning
 
-## Demonstration
-The main notebook can be found [here](Simple%20Featuretools%20RUL%20Demo.ipynb). To run that notebook, you will need to download Featuretools with
-```
-pip install featuretools
-```
-and the [turbofan data](https://ti.arc.nasa.gov/c/6/) from NASA. The function `load_data` in [utils.py](utils.py) takes the path to the text file and returns a pandas dataframe. With the notebook as written, we expect the path to the `train` data first.
+## Running the tutorial
+1. Clone the repo
+
+    ```
+    git clone https://github.com/Featuretools/predict-remaining-useful-life.git
+    ```
+
+2. Install the requirements
+
+    ```
+    pip install featuretools
+    ```
+
+3. Run the Tutorial notebook:
+    - [Simple Featuretools RUL Demo](Simple%20Featuretools%20RUL%20Demo.ipynb)<br>
+    *Note: The Challenge Dataset will be downloaded into the data folder in this repository, if not already downloaded.*
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
