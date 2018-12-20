@@ -16,7 +16,7 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
 ## Highlights
 * Quickly make end-to-end workflow using time-series data
 * Find interesting automatically generated features
-* An advanced notebook using custom primitives and hyperparameter tuning
+* An advanced notebook using custom primitives and hyper-parameter tuning
 
 ## Running the tutorial
 1. Clone the repo
