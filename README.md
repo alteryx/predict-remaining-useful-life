@@ -31,10 +31,24 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
     pip install -r requirements.txt
     ```
 
-3. Run the Tutorial notebooks:<br>
-   *Note: The Challenge Dataset will be downloaded into the data folder in this repository, if not already downloaded.*
+3. Download the data
+
+    The data is from the NASA Turbofan Engine Degradation Simulation Data Set
+    and is available [here](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan)
+
+    To run the notebooks, place the following files in the 'data' directory:
+    `train_FD004.txt`, `test_FD004.txt`, `RUL_FD004.txt`
+
+4. Run the Tutorials notebooks:<br>
     - [Simple Featuretools RUL Demo](Simple%20Featuretools%20RUL%20Demo.ipynb)<br/>
     - [Advanced Featuretools RUL](Advanced%20Featuretools%20RUL.ipynb)<br/>
+
+    ```
+    jupyter notebook
+    ```
+
+    *The `utils.py` script contains a number of useful helper functions.*
+
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
