@@ -11,7 +11,7 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
 2. [Generate features](#Step-2:-DFS-and-Creating-a-Model)
 3. [Make predictions with Machine Learning](#Step-3:-Using-the-Model)
 
-*If you're running this notebook yourself, note that the Challenge Dataset will be downloaded into the data folder in this repository. If you'd prefer to download the data yourself, download and unzip the file from [https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/6/)*.
+*To run the notebooks, you need to download the data yourself. Download and unzip the file from[https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/6/) and place the files in the 'data' directory*
 
 ## Highlights
 * Quickly make end-to-end workflow using time-series data
@@ -31,17 +31,31 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
     pip install -r requirements.txt
     ```
 
-3. Run the Tutorial notebooks:<br>
-   *Note: The Challenge Dataset will be downloaded into the data folder in this repository, if not already downloaded.*
+3. Download the data
+
+    The data is from the NASA Turbofan Engine Degradation Simulation Data Set
+    and is available [here](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan)
+
+    To run the notebooks, place the following files in the 'data' directory:
+    `train_FD004.txt`, `test_FD004.txt`, `RUL_FD004.txt`
+
+4. Run the Tutorials notebooks:<br>
     - [Simple Featuretools RUL Demo](Simple%20Featuretools%20RUL%20Demo.ipynb)<br/>
     - [Advanced Featuretools RUL](Advanced%20Featuretools%20RUL.ipynb)<br/>
+
+    ```
+    jupyter notebook
+    ```
+
+    *The `utils.py` script contains a number of useful helper functions.*
+
 
 ## Feature Labs
 <a href="https://www.featurelabs.com/">
     <img src="http://www.featurelabs.com/wp-content/uploads/2017/12/logo.png" alt="Featuretools" />
 </a>
 
-Featuretools is an open source project created by [Feature Labs](https://www.featurelabs.com/). To see the other open source projects we're working on visit Feature Labs [Open Source](https://www.featurelabs.com/open). If building impactful data science pipelines is important to you or your business, please [get in touch](https://www.featurelabs.com/contact.html).
+Featuretools is an open source project created by [Feature Labs](https://www.featurelabs.com/). To see the other open source projects we're working on visit Feature Labs [Open Source](https://www.featurelabs.com/open). If building impactful data science pipelines is important to you or your business, please [get in touch](https://www.featurelabs.com/contact).
 
 ### Contact
 
