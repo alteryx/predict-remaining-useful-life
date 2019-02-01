@@ -27,7 +27,21 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
 
 2. Install the requirements
 
+    #### Mac OS
     ```
+    brew install graphviz
+    pip install -r requirements.txt
+    ```
+
+    #### Linux
+    ```
+    sudo apt-get install graphviz
+    pip install -r requirements.txt
+    ```
+
+    #### Windows
+    ```
+    conda install python-graphviz
     pip install -r requirements.txt
     ```
 
