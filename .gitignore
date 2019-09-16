@@ -1,2 +1,5 @@
+data
+output
+*.pyc
 *.ipynb_checkpoints
 *.csv
