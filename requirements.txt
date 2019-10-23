@@ -6,4 +6,4 @@ requests>=2.21.0
 tsfresh>=0.11.1
 featuretools[tsfresh]>=0.1.0
 graphviz>=0.10.1
-composeml>=0.1.5
+composeml>=0.1.6
