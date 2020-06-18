@@ -1,4 +1,4 @@
-baytune>=0.3.0
+baytune>=0.2.3,<0.3.0
 jupyter>=1.0.0
 featuretools_tsfresh_primitives>=0.1.3
 featuretools>=0.16.0
