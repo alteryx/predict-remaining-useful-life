@@ -4,3 +4,5 @@ output
 *.ipynb_checkpoints
 *.csv
 .DS_Store
+env/
+venv/
