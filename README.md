@@ -11,7 +11,7 @@ We'll demonstrate an end-to-end workflow using a [Turbofan Engine Degradation Si
 2. [Generate features](#Step-2:-DFS-and-Creating-a-Model)
 3. [Make predictions with Machine Learning](#Step-3:-Using-the-Model)
 
-*To run the notebooks, you need to download the data yourself. Download and unzip the file from[https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/6/) and place the files in the 'data' directory*
+*To run the notebooks, you need to download the data yourself. Download and unzip the file from [https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/). Then create a 'data' directory and place the files in the 'data' directory.*
 
 ## Highlights
 * Quickly make end-to-end workflow using time-series data
